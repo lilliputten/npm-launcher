@@ -46,14 +46,14 @@ const commandsWindow = new ScriptCommandsGUI({
 commandsWindow.showWindow();
 ```
 
-Windows commandline:
+Windows shell command line:
 ```shell
-start /B npm-package-user-scripts-gui
+$ start /B npm-package-user-scripts-gui
 ```
 
-Linux/MacOS  commandline:
+Linux/MacOS shell command line:
 ```shell
-npm-package-user-scripts-gui &
+$ npm-package-user-scripts-gui &
 ```
 
 ## Screenshots
