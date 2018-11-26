@@ -34,7 +34,7 @@ const ScriptCommandsWindow = inherit(/** @lends ScriptCommandsWindow.prototype *
   /** Window height (0=auto) */
   height: 400,
 
-  /** Window title */
+  /** Window title (if can't to generate from `package.json`'s `name` field) */
   title: 'NPM Commands',
 
   /** Commands list */
