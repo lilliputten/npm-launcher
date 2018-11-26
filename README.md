@@ -16,7 +16,9 @@ is completed. All logs are doubled on stdout.
 
 ## Requirements
 
-See [LibUI-Node Requirements](https://github.com/parro-it/libui-node#prerequisites) -- used interface engine.
+See [LibUI-Node
+Requirements](https://github.com/parro-it/libui-node#prerequisites) -- used
+interface engine (required some build tools for compiling sources).
 
 ## Installation
 
@@ -67,12 +69,12 @@ $ npm-package-user-scripts-gui &
 All options are optional. :)
 
 <!-- options begin -->
-<!-- generated via `scan-options.sh` at 2018.11.27 00:34:50 -->
+<!-- generated via `scan-options.sh` at 2018.11.27 01:36:25 -->
 - **execOptions**: Exec options (for `child_process.exec`); @see [child_process.exec](https://nodejs.org/api/child_process.html#child_process_child_process_exec_command_options_callback) (default: `{}`)
 - **dateformat**: Format datetime for logging; @see [felixge/node-dateformat](https://github.com/felixge/node-dateformat#usage) (default: `'yyyy.mm.dd HH:MM:ss'`)
 - **width**: Minimal window width (default: `600`)
-- **height**: Minimal window height (default: `400`)
-- **title**: Window title (if can't to generate from `package.json`'s `name` field) (default: `'NPM Commands'`)
+- **height**: Minimal window height (default: `200`)
+- **title**: Window title (if can't to generate from `package.json`'s `name` field) (default: `'Commands'`)
 - **commands**: Commands list (default: `{ test: { title: 'Test' } }`)
 - **buttonSpaces**: Spaces for adding before and after button text (default: `' '`)
 <!-- options end -->
@@ -109,5 +111,5 @@ Show error in the log tab:
 - [parro-it/libui-node: Node bindings for libui, an awesome native UI library for Unix, OSX and Windows](https://github.com/parro-it/libui-node)
 
 <!--
-@version 2018.11.27, 00:34
+@version 2018.11.27, 01:36
 -->

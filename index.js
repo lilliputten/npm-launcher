@@ -4,7 +4,7 @@
  * @author lilliputten <lilliputten@yandex.ru>
  * @desc GUI interface to `npm-package-user-scripts-list` command
  * @since 2018.11.26, 03:00
- * @version 2018.11.27, 00:34
+ * @version 2018.11.27, 01:36
  */
 
 const scriptsList = require('npm-package-user-scripts-list');
@@ -34,10 +34,10 @@ const ScriptCommandsWindow = inherit(/** @lends ScriptCommandsWindow.prototype *
   width: 600,
 
   /** Minimal window height */
-  height: 400,
+  height: 200,
 
   /** Window title (if can't to generate from `package.json`'s `name` field) */
-  title: 'NPM Commands',
+  title: 'Commands',
 
   /** Commands list */
   commands: { test: { title: 'Test' } },
@@ -268,7 +268,7 @@ const ScriptCommandsWindow = inherit(/** @lends ScriptCommandsWindow.prototype *
     this.addResultsItem(container, 'title', 'Name');
 
     group.setChild(container);
-    box.append(group, true);
+    box.append(group, false);
 
   },/*}}}*/
 
