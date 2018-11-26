@@ -1,3 +1,7 @@
+[![GitHub Release](https://img.shields.io/github/release/lilliputten/npm-package-user-scripts-gui.svg)](https://github.com/lilliputten/npm-package-user-scripts-gui/releases)
+[![Build Status](https://api.travis-ci.org/lilliputten/npm-package-user-scripts-gui.svg?branch=master)](https://travis-ci.org/lilliputten/npm-package-user-scripts-gui)
+[![npm version](https://badge.fury.io/js/npm-package-user-scripts-gui.svg)](https://badge.fury.io/js/npm-package-user-scripts-gui)
+
 # npm-package-user-scripts-gui
 
 GUI interface to `npm-package-user-scripts-list` command.
