@@ -60,7 +60,27 @@ npm-package-user-scripts-gui &
 
 Initial screen:
 
-![Initial screen](screenshots/01-initial-screen.png)
+![Initial screen](screenshots/01-initial-screen.png "Initial screen")
+
+Running command:
+
+![Running command](screenshots/02-lint-running.png "Running command")
+
+Successfully finished command:
+
+![Successfully finished command](screenshots/03-lint-done.png "Successfully finished command")
+
+Log tab:
+
+![Log tab](screenshots/04-log-screen.png "Log tab")
+
+Failed command:
+
+![Failed command](screenshots/05-lint-error.png "Failed command")
+
+Show error in the log tab:
+
+![Show error in the log tab](screenshots/06-lint-error-log.png "Show error in the log tab")
 
 ## See also:
 
