@@ -1,0 +1,4 @@
+" vim: ft=vim
+let g:ale_linters = {
+\   'javascript': [ 'eslint' ],
+\}
