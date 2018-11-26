@@ -56,9 +56,9 @@ const commandsWindow = new ScriptCommandsGUI({
 commandsWindow.showWindow();
 ```
 
-Windows shell command line:
+Windows shell command line (console window will be opened, minimized and closed after program finish):
 ```shell
-$ start /B npm-package-user-scripts-gui
+$ start /min npm run -s cmd-gui ^& exit
 ```
 
 Linux/MacOS shell command line:
