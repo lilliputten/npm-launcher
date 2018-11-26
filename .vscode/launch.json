@@ -11,16 +11,10 @@
       "program": "${file}"
     },
     {
-      "name": "Debug test",
+      "name": "Debug cli",
       "type": "node",
       "request": "launch",
-      "program": "${workspaceRoot}/test.js"
-    },
-    {
-      "name": "Debug jest",
-      "type": "node",
-      "request": "launch",
-      "program": "${workspaceRoot}/node_modules/jest-cli/bin/jest.js"
+      "program": "${workspaceRoot}/cli.js"
     }
   ]
 }
