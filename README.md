@@ -4,7 +4,7 @@ GUI interface to `npm-package-user-scripts-list` command.
 
 ## Requirements
 
-See [LibUI Prerequisites](https://github.com/parro-it/libui-node#prerequisites)
+See [LibUI Prerequisites Info](https://github.com/parro-it/libui-node#prerequisites).
 
 ## Installation
 
@@ -24,7 +24,9 @@ In js code:
 
 ```js
 const ScriptCommandsGUI = require('./');
+
 const commandsWindow = new ScriptCommandsGUI({
+
   /** Format datetime for logging
    * @see [felixge/node-dateformat](https://github.com/felixge/node-dateformat)
    */
@@ -35,7 +37,11 @@ const commandsWindow = new ScriptCommandsGUI({
 
   /** Window title */
   title: 'NPM Commands',
+
+  // TODO: Create avalable options reference.
+
 });
+
 commandsWindow.showWindow();
 ```
 

@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /* eslint-env es6, node, commonjs */
 /* eslint-disable no-console */
 
