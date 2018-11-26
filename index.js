@@ -26,7 +26,7 @@ const ScriptCommandsWindow = inherit(/** @lends ScriptCommandsWindow.prototype *
   execOptions: {},
 
   /** Format datetime for logging;
-   * @see [felixge/node-dateformat](https://github.com/felixge/node-dateformat)
+   * @see [felixge/node-dateformat](https://github.com/felixge/node-dateformat#usage)
    */
   dateformat: 'yyyy.mm.dd HH:MM:ss',
 
