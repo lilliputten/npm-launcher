@@ -39,23 +39,18 @@ const ScriptCommandsGUI = require('./');
 
 const commandsWindow = new ScriptCommandsGUI({
 
-  /** Format datetime for logging
-   * @see [felixge/node-dateformat](https://github.com/felixge/node-dateformat)
-   */
+  // See options reference below...
+
+  /** Datetime format */
   dateformat: 'yyyy.mm.dd, HH:MM:ss',
 
-  /** Window width (0=auto width) */
-  width: 300,
-
-  /** Window title */
-  title: 'NPM Commands',
+  /** Minimal window width */
+  width: 800,
 
 });
 
 commandsWindow.showWindow();
 ```
-
-See section __Options__ below.
 
 Windows shell command line:
 ```shell
@@ -72,11 +67,11 @@ $ npm-package-user-scripts-gui &
 All options are optional. :)
 
 <!-- options begin -->
-<!-- generated via `scan-options.sh` at 2018.11.27 00:25:48 -->
-- **execOptions**: Exec options (default: `{}`)
+<!-- generated via `scan-options.sh` at 2018.11.27 00:33:02 -->
+- **execOptions**: Exec options (for `child_process.exec`); @see [child_process.exec](https://nodejs.org/api/child_process.html#child_process_child_process_exec_command_options_callback) (default: `{}`)
 - **dateformat**: Format datetime for logging; @see [felixge/node-dateformat](https://github.com/felixge/node-dateformat) (default: `'yyyy.mm.dd HH:MM:ss'`)
-- **width**: Window width (0=auto) (default: `600`)
-- **height**: Window height (0=auto) (default: `400`)
+- **width**: Minimal window width (default: `600`)
+- **height**: Minimal window height (default: `400`)
 - **title**: Window title (if can't to generate from `package.json`'s `name` field) (default: `'NPM Commands'`)
 - **commands**: Commands list (default: `{ test: { title: 'Test' } }`)
 - **buttonSpaces**: Spaces for adding before and after button text (default: `' '`)
@@ -114,5 +109,5 @@ Show error in the log tab:
 - [parro-it/libui-node: Node bindings for libui, an awesome native UI library for Unix, OSX and Windows](https://github.com/parro-it/libui-node)
 
 <!--
-@version 2018.11.27, 00:27
+@version 2018.11.27, 00:34
 -->

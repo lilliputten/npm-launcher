@@ -4,7 +4,7 @@
  * @author lilliputten <lilliputten@yandex.ru>
  * @desc GUI interface to `npm-package-user-scripts-list` command
  * @since 2018.11.26, 03:00
- * @version 2018.11.26, 03:00
+ * @version 2018.11.27, 00:34
  */
 
 const scriptsList = require('npm-package-user-scripts-list');
@@ -20,7 +20,9 @@ const ScriptCommandsWindow = inherit(/** @lends ScriptCommandsWindow.prototype *
 
   /*{{{ Propeties... */
 
-  /** Exec options */
+  /** Exec options (for `child_process.exec`);
+   * @see [child_process.exec](https://nodejs.org/api/child_process.html#child_process_child_process_exec_command_options_callback)
+   */
   execOptions: {},
 
   /** Format datetime for logging;
@@ -28,10 +30,10 @@ const ScriptCommandsWindow = inherit(/** @lends ScriptCommandsWindow.prototype *
    */
   dateformat: 'yyyy.mm.dd HH:MM:ss',
 
-  /** Window width (0=auto) */
+  /** Minimal window width */
   width: 600,
 
-  /** Window height (0=auto) */
+  /** Minimal window height */
   height: 400,
 
   /** Window title (if can't to generate from `package.json`'s `name` field) */
