@@ -23,7 +23,7 @@ See [LibUI-Node Requirements](https://github.com/parro-it/libui-node#prerequisit
 For current project:
 
 ```shell
-$ npm i -D npm-package-user-scripts-gui
+$ npm i -S npm-package-user-scripts-gui
 ```
 Global:
 ```shell
