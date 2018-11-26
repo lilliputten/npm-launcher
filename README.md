@@ -2,6 +2,10 @@
 
 GUI interface to `npm-package-user-scripts-list` command.
 
+## Requirements
+
+See [LibUI Prerequisites](https://github.com/parro-it/libui-node#prerequisites)
+
 ## Installation
 
 For current project:
@@ -12,6 +16,37 @@ npm i -D npm-package-user-scripts-gui
 Global:
 ```shell
 npm i -g npm-package-user-scripts-gui
+```
+
+## Usage
+
+In js code:
+
+```js
+const ScriptCommandsGUI = require('./');
+const commandsWindow = new ScriptCommandsGUI({
+  /** Format datetime for logging
+   * @see [felixge/node-dateformat](https://github.com/felixge/node-dateformat)
+   */
+  dateformat: 'yyyy.mm.dd, HH:MM:ss',
+
+  /** Window width (0=auto width) */
+  width: 300,
+
+  /** Window title */
+  title: 'NPM Commands',
+});
+commandsWindow.showWindow();
+```
+
+Windows commandline:
+```shell
+start /B npm-package-user-scripts-gui
+```
+
+Linux/MacOS  commandline:
+```shell
+npm-package-user-scripts-gui &
 ```
 
 ## See also:
