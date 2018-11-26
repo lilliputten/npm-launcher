@@ -27,6 +27,9 @@ const ScriptCommandsGUI = require('./');
 
 const commandsWindow = new ScriptCommandsGUI({
 
+  // NOTE: Options are optional :)
+  // TODO: Create avalable options reference
+
   /** Format datetime for logging
    * @see [felixge/node-dateformat](https://github.com/felixge/node-dateformat)
    */
@@ -37,8 +40,6 @@ const commandsWindow = new ScriptCommandsGUI({
 
   /** Window title */
   title: 'NPM Commands',
-
-  // TODO: Create avalable options reference.
 
 });
 
