@@ -4,7 +4,7 @@ GUI interface to `npm-package-user-scripts-list` command.
 
 ## Requirements
 
-See [LibUI Prerequisites Info](https://github.com/parro-it/libui-node#prerequisites).
+See [LibUI-Node Requirements](https://github.com/parro-it/libui-node#prerequisites).
 
 ## Installation
 
@@ -55,6 +55,12 @@ Linux/MacOS  commandline:
 ```shell
 npm-package-user-scripts-gui &
 ```
+
+## Screenshots
+
+Initial screen:
+
+![Initial screen](screenshots/01-initial-screen.png)
 
 ## See also:
 
