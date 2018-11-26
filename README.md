@@ -16,7 +16,7 @@ is completed. All logs are doubled on stdout.
 
 ## Requirements
 
-See [LibUI-Node Requirements](https://github.com/parro-it/libui-node#prerequisites).
+See [LibUI-Node Requirements](https://github.com/parro-it/libui-node#prerequisites) -- used interface engine.
 
 ## Installation
 
