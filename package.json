@@ -22,10 +22,11 @@
     "url": "https://github.com/lilliputten/npm-package-user-scripts-gui/issues"
   },
   "dependencies": {
+    "clipboardy": "^1.2.3",
     "dateformat": "^3.0.3",
     "inherit": "^2.2.7",
     "libui-node": "^0.2.1",
-    "npm-package-user-scripts-list": "0.1.2"
+    "npm-package-user-scripts-list": "0.1.8"
   },
   "devDependencies": {
     "eslint": "^5.9.0"
