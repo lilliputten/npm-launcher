@@ -1,6 +1,8 @@
-[![npm version](https://badge.fury.io/js/npm-package-user-scripts-gui.svg)](https://badge.fury.io/js/npm-package-user-scripts-gui)
+[![npm version](https://badge.fury.io/js/npm-launcher.svg)](https://badge.fury.io/js/npm-launcher)
 
-# npm-package-user-scripts-gui
+# npm-launcher
+
+(Former `npm-package-user-scripts-gui`.)
 
 GUI interface to `npm-package-user-scripts-list` command.
 
@@ -30,11 +32,11 @@ interface engine (required some build tools for compiling sources).
 For current project:
 
 ```shell
-$ npm i -S npm-package-user-scripts-gui
+$ npm i -S npm-launcher
 ```
 Global:
 ```shell
-$ npm i -g npm-package-user-scripts-gui
+$ npm i -g npm-launcher
 ```
 
 ## Usage
@@ -61,7 +63,7 @@ commandsWindow.showWindow();
 
 Linux/MacOS shell command line:
 ```shell
-$ npm-package-user-scripts-gui &
+$ npm-launcher &
 ```
 
 Windows shell command line (console window will be opened, minimized and closed after program finish):
@@ -74,9 +76,11 @@ Another convenient way to run the program on Windows is with vbasic script like 
 CreateObject("Wscript.Shell").Run "npm run -s cmd-gui", 0
 ```
 
-(Thanks to Kees Bakker, see his article [How to start Node.js app windowless in Windows - KeesTalksTech](https://keestalkstech.com/2016/07/start-nodejs-app-windowless-windows/).)
+(Thanks to Kees Bakker, see his article [How to start Node.js app windowless in
+Windows](https://keestalkstech.com/2016/07/start-nodejs-app-windowless-windows/).)
 
-See also scripts `npm-launcher.cmd`, `npm-launcher.sh`, `npm-launcher.vbs` (included in package) for global-installed package launch.
+See also scripts `npm-launch.cmd`, `npm-launch.sh`, `npm-launch.vbs` (included
+in package) for global-installed package launch.
 
 ## Options
 
@@ -127,5 +131,5 @@ Show error in the log tab:
 - [parro-it/libui-node: Node bindings for libui, an awesome native UI library for Unix, OSX and Windows](https://github.com/parro-it/libui-node)
 
 <!--
-@version 2018.11.27, 01:36
+@version 2018.11.27, 20:24
 -->

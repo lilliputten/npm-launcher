@@ -1,32 +1,34 @@
 {
-  "name": "npm-package-user-scripts-gui",
+  "name": "npm-launcher",
   "version": "0.0.8",
   "main": "index.js",
   "bin": "./cli.js",
-  "description": "GUI interface to npm-package-user-scripts-list command",
+  "description": "NPM scripts gui launcher",
   "author": "lilliputten <igor@lilliputten.ru> (http://lilliputten.ru)",
   "license": "MIT",
-  "homepage": "https://github.com/lilliputten/npm-package-user-scripts-gui#readme",
+  "homepage": "https://github.com/lilliputten/npm-launcher#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lilliputten/npm-package-user-scripts-gui.git"
+    "url": "git+https://github.com/lilliputten/npm-launcher.git"
   },
   "keywords": [
     "npm",
+    "launch",
+    "launcher",
     "run",
     "scripts",
     "commands",
     "gui"
   ],
   "bugs": {
-    "url": "https://github.com/lilliputten/npm-package-user-scripts-gui/issues"
+    "url": "https://github.com/lilliputten/npm-launcher/issues"
   },
   "dependencies": {
     "clipboardy": "^1.2.3",
     "dateformat": "^3.0.3",
     "inherit": "^2.2.7",
     "libui-node": "^0.2.1",
-    "npm-package-user-scripts-list": "0.1.9"
+    "npm-package-user-scripts-list": "0.1.10"
   },
   "devDependencies": {
     "eslint": "^5.9.0"
