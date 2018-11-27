@@ -8,6 +8,5 @@
 
 ## Windowless app links
 
-- [](https://keestalkstech.com/2016/07/start-nodejs-app-windowless-windows/)
-- [](https://stackoverflow.com/questions/17979721/starting-node-js-server-without-console)
-- 
+- https://keestalkstech.com/2016/07/start-nodejs-app-windowless-windows/
+- https://stackoverflow.com/questions/17979721/starting-node-js-server-without-console
