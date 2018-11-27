@@ -76,6 +76,8 @@ CreateObject("Wscript.Shell").Run "npm run -s cmd-gui", 0
 
 (Thanks to Kees Bakker, see his article [How to start Node.js app windowless in Windows - KeesTalksTech](https://keestalkstech.com/2016/07/start-nodejs-app-windowless-windows/).)
 
+See also scripts `npm-launcher.cmd`, `npm-launcher.sh`, `npm-launcher.vbs` (included in package) for global-installed package launch.
+
 ## Options
 
 All options are optional. :)
