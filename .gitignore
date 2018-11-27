@@ -8,7 +8,7 @@ npm-debug.log*
 .Work/
 .UNUSED/
 .Samples/
-
+\!ARC*
 
 # Runtime data
 pids

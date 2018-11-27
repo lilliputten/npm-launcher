@@ -16,6 +16,9 @@ service tasks.
 Take in mind that the content of the log tab is updated only after the command
 is completed. All logs are doubled on stdout.
 
+It may be preferable to install the package globally because each local
+installation recompiles its own `libui` library instance.
+
 ## Requirements
 
 See [LibUI-Node
@@ -56,15 +59,22 @@ const commandsWindow = new ScriptCommandsGUI({
 commandsWindow.showWindow();
 ```
 
+Linux/MacOS shell command line:
+```shell
+$ npm-package-user-scripts-gui &
+```
+
 Windows shell command line (console window will be opened, minimized and closed after program finish):
 ```shell
 $ start /min npm run -s cmd-gui ^& exit
 ```
 
-Linux/MacOS shell command line:
-```shell
-$ npm-package-user-scripts-gui &
+Another convenient way to run the program on Windows is with vbasic script like this:
+```vbscript
+CreateObject("Wscript.Shell").Run "npm run -s cmd-gui", 0
 ```
+
+(Thanks to Kees Bakker, see his article [How to start Node.js app windowless in Windows - KeesTalksTech](https://keestalkstech.com/2016/07/start-nodejs-app-windowless-windows/).)
 
 ## Options
 
@@ -109,6 +119,8 @@ Show error in the log tab:
 
 ## See also:
 
+- [TODO](TODO.md)
+- [CHANGELOG](CHANGELOG.md)
 - [lilliputten/npm-package-user-scripts-list: List all available npm script commands](https://github.com/lilliputten/npm-package-user-scripts-list)
 - [parro-it/libui-node: Node bindings for libui, an awesome native UI library for Unix, OSX and Windows](https://github.com/parro-it/libui-node)
 
